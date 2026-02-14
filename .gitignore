@@ -1,0 +1,5 @@
+SE2/node_modules/
+SE2/build/
+demo-app/node_modules/
+demo-app/build/
+.env

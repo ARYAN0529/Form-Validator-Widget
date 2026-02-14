@@ -1,0 +1,68 @@
+/* Background for the entire app */
+body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: url('https://4kwallpapers.com/images/walls/thumbs_3t/24060.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the form */
+.app-container {
+  background-color: rgba(255, 255, 255, 0.25); 
+  backdrop-filter: blur(10px); /* glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border for glass effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  color: #fff; /* optional: white text looks good on dark backgrounds */
+}
+
+
+/* Inputs styling */
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Button styling */
+button {
+  padding: 12px 25px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Error messages */
+p {
+  margin: 4px 0 12px 0;
+  font-size: 14px;
+  color: red;
+}
+
+h2{
+  color:black;
+}
